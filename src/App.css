@@ -83,4 +83,24 @@ a{
               transform: scale(1);
     }
   }
+
+  @media screen and (max-widht:700px) {
+    .section__padding{
+      padding: 4rem;
+    }
+
+    .section__margin{
+      margin: 4rem;
+    }
+  }
+
+  @media screen and (max-widht:550px) {
+    .section__padding{
+      padding: 4rem 2rem;
+    }
+
+    .section__margin{
+      margin: 4rem 2rem;
+    }
+  }
   
